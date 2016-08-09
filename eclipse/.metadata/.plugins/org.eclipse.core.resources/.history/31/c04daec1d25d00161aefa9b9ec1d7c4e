@@ -1,0 +1,5 @@
+package esy.es.resurrect.gui;
+
+public class GUIManager {
+
+}
