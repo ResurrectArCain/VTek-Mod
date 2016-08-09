@@ -1,4 +1,4 @@
-# Valid Blocks Mod ![Build Status](https://travis-ci.org/ResurrectArCain/VTek-Mod# "Build Status")
+# Valid Blocks Mod ![Build Status](https://travis-ci.org/ResurrectArCain/VTek-Mod.svg "Build Status")
 
 <p>We don't have any reason why we created this it was just for fun and a way of teaching Amanda how to mod a game</p>
 
