@@ -7,6 +7,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
 import esy.es.resurrect.dire.RefStrings;
+import esy.es.resurrect.items.Itemreg;
 
 @Mod(modid = RefStrings.MODID , name = RefStrings.NAME , version = RefStrings.VERSION)
 public class MainRegistry {
@@ -17,6 +18,7 @@ public class MainRegistry {
 	@EventHandler
 	public static void PreLoad(FMLPreInitializationEvent PreEvent){
 		proxy.registerRenderInfo();
+		Itemreg.initReg();
 	}
 	@EventHandler
 	public static void load(FMLInitializationEvent event){
