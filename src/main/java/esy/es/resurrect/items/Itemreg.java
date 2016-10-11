@@ -14,7 +14,7 @@ public class Itemreg {
 	public static Item techItem1;
 	
 	public static void initReg(){
-		techItem1 = new Item().setUnlocalizedName("techItem1").setCreativeTab(CreativeTabs.tabMisc);
+		techItem1 = new Item().setUnlocalizedName("Tech1").setCreativeTab(CreativeTabs.tabMisc);
 	}
 	
 	public static void registerItem(){
