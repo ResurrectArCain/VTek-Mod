@@ -6,6 +6,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
+import esy.es.resurrect.blockz.Blockreg;
 import esy.es.resurrect.dire.RefStrings;
 import esy.es.resurrect.items.Itemreg;
 
@@ -19,6 +20,7 @@ public class MainRegistry {
 	public static void PreLoad(FMLPreInitializationEvent PreEvent){
 		proxy.registerRenderInfo();
 		Itemreg.initReg();
+		Blockreg.initBlockReg();
 	}
 	@EventHandler
 	public static void load(FMLInitializationEvent event){
